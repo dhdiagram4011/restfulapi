@@ -1,0 +1,14 @@
+...예약목록
+<br/>
+<br/>
+{% for bookingall in bookingalls %}
+    예약요청자 : {{ bookingall.subscriber }}<br/>
+    입실일 : {{ bookingall.date_from }}<br/>
+    퇴실일 : {{ bookingall.date_to }}<br/>
+    방번호 : {{ bookingall.room }}<br/>
+    기타요청사항 : {{ bookingall.note }}<br/>
+<br/>
+<br/>
+{% endfor %}
+<br/>
+<br/>

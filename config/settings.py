@@ -135,7 +135,8 @@ SWAGGER_SETTINGS = {
 
     },
     "LOGIN_URL" : "/admin/login/",
-    "LOGOUT_URL" : "/admin/logout/"
+    "LOGOUT_URL" : "/admin/logout/",
+    "LIST_URL" : "bookingall/"
 }
 
 
